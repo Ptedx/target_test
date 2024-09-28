@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Ex: 01</title>
+</head>
+<body>
+    <section class="formSection">
+        <div class="formDiv">
+            <div class="form">
+                <p>Digite 13 para ver a resposta do exercício (deve retornar 78)</p>
+                <label for="result">Digite um número para ver a soma: </label>
+                <input type="text" name="result" id="input">
+                <button class="btn" onclick={getAddition()}>Enviar</button>
+            </div>
+            <p class="result"></p>
+            <button class="btn return" onclick={returnMainPage()}>Retornar</button>
+        </div>
+    </section>
+</body>
+<script src="../functions/ex_01.js"></script>
+</html>
